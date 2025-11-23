@@ -22,12 +22,10 @@ function updateStyles(isEnabled: boolean) {
       style.id = STYLE_ID;
       style.textContent = siteStyles[matchedDomain] || ''; 
       document.head.appendChild(style);
-      console.log(`Dark mode enabled for ${currentHost} (matched: ${matchedDomain})`);
     }
   } else {
     if (existingStyle) {
       existingStyle.remove();
-      console.log(`Dark mode disabled for ${currentHost}`);
     }
   }
 }
