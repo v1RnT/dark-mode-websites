@@ -1,7 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "Svelte TS Extension",
+  "name": "Dark Mode Websites",
   "version": "1.0.0",
+    "permissions": [
+    "storage" 
+  ],
   "action": {
     "default_popup": "index.html"
   },
