@@ -7,7 +7,14 @@
     { id: "google.com", name: "Google" },
   ];
 
-  let settings: Record<string, boolean> = {};
+  let settings: Record<string, boolean> = sites.reduce(
+    (acc, site) => {
+      acc[site.id] = false;
+      return acc;
+    },
+    {} as Record<string, boolean>
+  );
+
   let errorMessage: string | null = null;
 
   onMount(() => {
@@ -20,7 +27,13 @@
           errorMessage = "Could not load settings.";
           return;
         }
-        settings = result as Record<string, boolean>;
+
+        const newSettings: Record<string, boolean> = { ...settings };
+        keys.forEach((key) => {
+          newSettings[key] = (result[key] as boolean) ?? false;
+        });
+
+        settings = newSettings;
       });
     }
   });
