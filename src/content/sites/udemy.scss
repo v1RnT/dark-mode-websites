@@ -1,8 +1,162 @@
+:root {
+  --color-gray-650: oklch(98.5% 0 0) !important;
+  --color-gray-600: oklch(92.5% 0 0) !important;
+  --color-gray-550: oklch(84.0% 0 0) !important;
+  --color-gray-500: oklch(72.0% 0 0) !important;
+  --color-gray-450: oklch(60.0% 0 0) !important;
+  --color-gray-400: oklch(48.0% 0 0) !important;
+  --color-gray-350: oklch(36.0% 0 0) !important;
+  --color-gray-300: oklch(26.0% 0 0) !important;
+  --color-gray-250: oklch(20.0% 0 0) !important;
+  --color-gray-200: oklch(15.0% 0 0) !important;
+  --color-gray-150: oklch(10.0% 0 0) !important;
+  --color-gray-100: oklch(5.0% 0 0) !important;
+
+  --color-red-500: oklch(65.24% 0.1681 30.2666deg) !important;
+  --color-red-450: oklch(60.46% 0.1800 29.98deg) !important;
+  --color-red-400: oklch(55.73% 0.2000 29.71deg) !important;
+  --color-red-350: oklch(45.93% 0.1500 29.33deg) !important;
+  --color-red-300: oklch(35.71% 0.1200 28.6deg) !important;
+  --color-red-250: oklch(25.92% 0.0900 26.1665deg) !important;
+  --color-red-200: oklch(20.53% 0.0600 23.47deg) !important;
+  --color-red-150: oklch(15.94% 0.0400 22.54deg) !important;
+  --color-red-100: oklch(10.79% 0.0208 21.17deg) !important;
+
+  --color-blue-500: #a592f2 !important;
+  --color-blue-450: #8d76e6 !important;
+  --color-blue-400: #7155d6 !important;
+  --color-blue-350: #5835c2 !important;
+  --color-blue-300: #431ca3 !important; 
+  --color-blue-250: #321380 !important;
+  --color-blue-200: #230d59 !important;
+  --color-blue-150: #180840 !important;
+  --color-blue-100: #0f0529 !important;
+
+  --color-indigo-500: var(--color-blue-500) !important;
+  --color-indigo-400: var(--color-blue-400) !important;
+  --color-indigo-300: var(--color-blue-300) !important;
+  --color-indigo-200: var(--color-blue-200) !important;
+  --color-indigo-100: var(--color-blue-100) !important;
+
+  --color-orange-500: oklch(75.68% 0.1461 51.53deg) !important;
+  --color-orange-450: oklch(68.60% 0.1500 56.49deg) !important;
+  --color-orange-400: oklch(62.76% 0.1418 61.45deg) !important;
+  --color-orange-350: oklch(50.46% 0.1200 66.16deg) !important;
+  --color-orange-300: oklch(40.62% 0.1000 68.76deg) !important;
+  --color-orange-250: oklch(30.19% 0.0800 76.67deg) !important;
+  --color-orange-200: oklch(20.41% 0.0600 76.47deg) !important;
+  --color-orange-150: oklch(15.32% 0.0400 78.84deg) !important;
+  --color-orange-100: oklch(10.56% 0.0244 83.42deg) !important;
+
+  --color-yellow-500: #fbf98a !important;
+  --color-yellow-450: #f5f269 !important;
+  --color-yellow-400: #e9e729 !important;
+  --color-yellow-350: #c9c716 !important;
+  --color-yellow-300: #9da10d !important;
+  --color-yellow-250: #757908 !important;
+  --color-yellow-200: #4d5005 !important;
+  --color-yellow-150: #303303 !important;
+  --color-yellow-100: #1a1c01 !important;
+
+  --color-green-500: oklch(75.72% 0.1500 158.67deg) !important;
+  --color-green-450: oklch(68.76% 0.1400 158.21deg) !important;
+  --color-green-400: oklch(60.49% 0.1200 157.92deg) !important;
+  --color-green-350: oklch(50.72% 0.1000 156.09deg) !important;
+  --color-green-300: oklch(40.59% 0.0800 154.89deg) !important;
+  --color-green-250: oklch(30.81% 0.0600 158.17deg) !important;
+  --color-green-200: oklch(22.01% 0.0400 162.22deg) !important;
+  --color-green-150: oklch(15.13% 0.0300 165.8deg) !important;
+  --color-green-100: oklch(10.23% 0.0176 170.1deg) !important;
+
+  --color-teal-600: oklch(88.97% 0.0428 220.91deg) !important;
+  --color-teal-550: oklch(80.77% 0.0548 217.68deg) !important;
+  --color-teal-500: oklch(72.60% 0.0677 216.83deg) !important;
+  --color-teal-450: oklch(64.03% 0.0813 214.59deg) !important;
+  --color-teal-400: oklch(55.87% 0.0933 207.35deg) !important;
+  --color-teal-350: oklch(45.69% 0.0800 202.5deg) !important;
+  --color-teal-300: oklch(35.25% 0.0600 200.16deg) !important;
+  --color-teal-250: oklch(25.96% 0.0500 199.89deg) !important;
+  --color-teal-200: oklch(18.77% 0.0400 200.32deg) !important;
+  --color-teal-150: oklch(12.69% 0.0300 200.29deg) !important;
+  --color-teal-100: oklch(8.79% 0.018 201.11deg) !important;
+
+  --color-purple-600: oklch(85.56% 0.0907 288.24deg) !important;
+  --color-purple-550: oklch(78.29% 0.1348 286.02deg) !important;
+  --color-purple-500: oklch(70.86% 0.1795 284.97deg) !important;
+  --color-purple-450: oklch(62.47% 0.2239 285.34deg) !important;
+  --color-purple-400: oklch(55.41% 0.2342 293.93deg) !important;
+  --color-purple-350: oklch(45.33% 0.1800 301.09deg) !important;
+  --color-purple-300: oklch(35.44% 0.1400 306.65deg) !important;
+  --color-purple-250: oklch(25.76% 0.1000 301.5deg) !important;
+  --color-purple-200: oklch(18.95% 0.0700 296.84deg) !important;
+  --color-purple-150: oklch(12.30% 0.0400 291.71deg) !important;
+  --color-purple-100: oklch(8.91% 0.0215 294.6deg) !important;
+
+  --color-white: oklch(0% 0 0) !important;
+  --color-knockout: oklch(0% 0 0) !important;
+
+  --gradient-purple-500: radial-gradient(100% 100% at 0% 0%, var(--color-gray-550) 30%, var(--color-purple-550) 50%, var(--color-purple-450) 80%) !important;
+  --gradient-purple-300: radial-gradient(100% 100% at 0% 0%, var(--color-gray-550) 30%, var(--color-purple-450) 50%, var(--color-purple-300) 80%) !important;
+  --gradient-purple-200: radial-gradient(100% 100% at 0% 0%, var(--color-purple-250) 30%, var(--color-purple-250) 50%, var(--color-purple-150) 80%) !important;
+  --gradient-purple-100: radial-gradient(100% 100% at 0% 0%, var(--color-purple-200) 30%, var(--color-purple-150) 50%, var(--color-purple-100) 80%) !important;
+  --gradient-red-500: radial-gradient(100% 100% at 0% 0%, var(--color-gray-550) 30%, var(--color-purple-450) 50%, var(--color-red-450) 80%) !important;
+  --gradient-red-300: radial-gradient(100% 100% at 0% 0%, var(--color-gray-550) 30%, var(--color-purple-300) 50%, var(--color-red-300) 80%) !important;
+  --gradient-red-200: radial-gradient(100% 100% at 0% 0%, var(--color-purple-250) 30%, var(--color-purple-200) 50%, var(--color-red-200) 80%) !important;
+  --gradient-red-100: radial-gradient(100% 100% at 0% 0%, var(--color-purple-200) 30%, var(--color-purple-150) 50%, var(--color-red-100) 80%) !important;
+  --gradient-green-500: radial-gradient(100% 100% at 0% 0%, var(--color-gray-550) 30%, var(--color-green-350) 50%, var(--color-teal-450) 80%) !important;
+  --gradient-green-300: radial-gradient(100% 100% at 0% 0%, var(--color-gray-550) 30%, var(--color-green-300) 50%, var(--color-teal-300) 80%) !important;
+  --gradient-green-200: radial-gradient(100% 100% at 0% 0%, var(--color-green-250) 30%, var(--color-green-200) 50%, var(--color-teal-200) 80%) !important;
+  --gradient-green-100: radial-gradient(100% 100% at 0% 0%, var(--color-green-200) 30%, var(--color-green-150) 50%, var(--color-teal-150) 80%) !important;
+
+  --highcharts-background-color: var(--color-white) !important;
+
+  --highcharts-neutral-color-100: var(--color-gray-600) !important;
+  --highcharts-neutral-color-80: var(--color-gray-550) !important;
+  --highcharts-neutral-color-60: var(--color-gray-500) !important;
+  --highcharts-neutral-color-40: var(--color-gray-400) !important;
+
+  --highcharts-neutral-color-20: var(--color-gray-200) !important;
+  --highcharts-neutral-color-10: var(--color-gray-150) !important;
+  --highcharts-neutral-color-5: var(--color-gray-100) !important;
+  --highcharts-neutral-color-3: var(--color-gray-100) !important;
+
+  --highcharts-positive-color: var(--color-green-400) !important;
+  --highcharts-negative-color: var(--color-red-400) !important;
+}
+
 body {
-  background-color: #000000 !important;
-  color: #628ac7 !important;
+  background-color: #141414 !important;
+  color: oklch(69.431% 0.10099 281.511) !important;
+}
+
+.ud-icon {
+  fill: #fff !important;
+}
+
+.ud-avatar {
+  background: rgb(82, 82, 82) !important;
+}
+
+.ud-unstyled-list {
+  background-color: #141414 !important;
 }
 
 a {
   color: #8ab4f8 !important;
+}
+
+[class*="subcategory-link-bar--subcategory-link-bar"], 
+[class*="subcategory-link-bar--category"], 
+[class*="subcategory-link-bar--subcategory"],
+[class*="subcategory-link-bar--subcategory-in-dropdown"] {
+  color: #8ab4f8 !important;
+}
+
+[class*="popular-topics-unit-module--topic-tag"],
+[class*="single-course-unit-module--container"] {
+  border-color: #232325 !important;
+  
+  &:hover {
+    background-color: #1d1d1d !important;
+  }
 }
