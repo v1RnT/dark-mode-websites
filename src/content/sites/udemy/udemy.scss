@@ -1,0 +1,38 @@
+@import url(_colors.scss);
+
+body {
+  background-color: #141414 !important;
+  color: oklch(69.431% 0.10099 281.511) !important;
+}
+
+.ud-icon {
+  fill: #fff !important;
+}
+
+.ud-avatar {
+  background: rgb(82, 82, 82) !important;
+}
+
+.ud-unstyled-list {
+  background-color: #141414 !important;
+}
+
+a {
+  color: #8ab4f8 !important;
+}
+
+[class*="subcategory-link-bar--subcategory-link-bar"], 
+[class*="subcategory-link-bar--category"], 
+[class*="subcategory-link-bar--subcategory"],
+[class*="subcategory-link-bar--subcategory-in-dropdown"] {
+  color: #8ab4f8 !important;
+}
+
+[class*="popular-topics-unit-module--topic-tag"],
+[class*="single-course-unit-module--container"] {
+  border-color: #232325 !important;
+  
+  &:hover {
+    background-color: #1d1d1d !important;
+  }
+}
