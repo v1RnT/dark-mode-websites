@@ -1,4 +1,4 @@
-import udemyStyles from "./sites/udemy.scss?inline";
+import udemyStyles from "./sites/udemy/udemy.scss?inline";
 import googleStyles from "./sites/google.scss?inline";
 
 const siteStyles = new Map<string, string>([
